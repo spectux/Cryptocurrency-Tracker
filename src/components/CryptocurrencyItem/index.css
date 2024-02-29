@@ -1,0 +1,29 @@
+.cryptocurrency-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.currency-logo {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.currency-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.usd-value {
+  margin: 10px;
+}
+.euro-value {
+  margin: 10px 0;
+}
